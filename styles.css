@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Section 1 */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 150px 200px;
+}
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header_logo {
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.header_main .text {
+    max-width: 450px;
+}
+.header_main .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.header_main .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 6px 0 16px 0;
+}
+.header-button {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.section2 .title {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section2 .subsection2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.section2 .imgtext {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 160px;
+}
+.section2 .text {
+    text-align: center;
+    font-size: 18px;
+}
+.section2 img {
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    padding: 72px;
+}
+
+/* Section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 300px;
+}
+
+.section3 em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.section3 .name {
+    text-align: right;
+    margin-right: 24px;
+    font-size: 24px;
+}
+
+

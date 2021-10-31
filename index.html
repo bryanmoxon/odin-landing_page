@@ -4,32 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
     <!--Header section-->
-    <h4><strong>Header Logo</strong></h4>
-    <a href = "pages/page_1.html">header link one</a>
-    <a href="pages/page_2.html">header link two</a>
-    <a href="pages/page_3.html">header link three</a>
+    <div class = "header">
+        <!--top text of header (Logo and links)-->
+        <div class = "header_top">
+            <div class = "header_logo">
+                <h4><strong>Header Logo</strong></h4>
+            </div>
+            <ul>
+                <li><a href = "pages/page_1.html">header link one</a></li>
+                <li><a href = "pages/page_2.html">header link two</a></li>
+                <li><a href = "pages/page_3.html">header link three</a></li>
+            </ul>
+        </div>
 
-
-    <!--Content below header-->
-    <h1><strong>This website is awesome</strong></h1>
-    <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
-    <button>Sign up</button>
-    <img src="img/a">
-
-    <!--Main section 1-->
-    <h2><strong>Some random information</strong></h2>
-    <img src="img/b">
-    <div class="text">this is some subtext under an illustration or image</div>
+        <!--Main section of header-->
+        <div class = "header_main">
+            <div class="text">
+                <div class="title">
+                    <strong>This website is awesome</strong>
+                </div>
+                <div class="subtext">
+                    This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.
+                </div>
+                <button class="header-button">Sign up</button>
+            </div>
+            <div class="header_image">
+                <img src="img/a">
+            </div>
+        </div>
+    </div>
+    
 
     <!--Main section 2-->
-    <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em>
-    <strong>- Thor, God of Thunder</strong>
+    <div class="section2">
+        <div class="title">
+            <h2><strong>Some random information.</strong></h2>
+        </div>
 
-    <!--Main section 3-->
+        <div class="subsection2">
+            <div class="imgtext">
+                <img src="img/b">
+                <div class="text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imgtext">
+                <img src="img/b">
+                <div class="text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imgtext">
+                <img src="img/b">
+                <div class="text">this is some subtext under an illustration or image</div>
+            </div>
+            <div class="imgtext">
+                <img src="img/b">
+                <div class="text">this is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Quote section-->
+    <div class="section3">
+        <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em>
+        <div class="name">
+            <strong>-Thor, God of Thunder</strong>
+        </div>
+    </div>
+    
+
+    <!--Main section 4-->
     <h4>Call to action! It's time!</h4>
     <p>Sign up for our product by clicking that button right over there!</p>
     <button>Sign up</button>
